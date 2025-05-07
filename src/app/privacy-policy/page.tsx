@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
           Privacy Policy
         </h1>
         <p className="text-gray-400 text-lg">
-          Learn about how your data is handled in my mobile apps.
+          Learn how your data is handled in my mobile apps.
         </p>
       </header>
 
