@@ -1,9 +1,11 @@
+"use client";
 import React from "react";
+import Head from "next/head";
 
 const AISight = () => {
   return (
     <>
-      <head>
+      <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Privacy Policy</title>
@@ -85,10 +87,10 @@ const AISight = () => {
           .footer p {
             margin-top: 1rem;
           }
-
         `}</style>
-      </head>
-      <body>
+      </Head>
+
+      <main>
         <h1>Privacy Policy for AI Sight</h1>
         <p>
           Yang Liu built the AI Sight app as a free app. This service is
@@ -138,9 +140,9 @@ const AISight = () => {
           <p>
             In case of an error in the app, I collect data and information on
             your phone called Log Data. This may include information such as
-            your device Internet Protocol (“IP”) address, device name, operating
-            system version, the configuration of the app when utilizing my
-            service, and other statistics.
+            your device Internet Protocol (&quot;IP&quot;) address, device name,
+            operating system version, the configuration of the app when
+            utilizing my service, and other statistics.
           </p>
         </div>
 
@@ -149,7 +151,7 @@ const AISight = () => {
           <p>
             Cookies are small files commonly used as anonymous unique
             identifiers. These are sent to your browser and stored on your
-            device's memory.
+            device&apos;s memory.
           </p>
           <p>
             This service does not explicitly use cookies. However, third-party
@@ -199,7 +201,7 @@ const AISight = () => {
         </div>
 
         <div className="section">
-          <h2>Children’s Privacy</h2>
+          <h2>Children&apos;s Privacy</h2>
           <p>
             This service does not address anyone under the age of 13. I do not
             knowingly collect personally identifiable information from children
@@ -246,7 +248,7 @@ const AISight = () => {
             </a>
           </p>
         </footer>
-      </body>
+      </main>
     </>
   );
 };
