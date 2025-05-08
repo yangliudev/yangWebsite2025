@@ -149,12 +149,19 @@ export default function Home() {
               </a>
             </div>
             <p className="text-sm text-gray-300">
-              Tech Stack: React Native, TypeScript, JavaScript
+              Tech Stack: React Native, JS/TS, MediaWiki API, Dog CEO API
             </p>
             <p className="text-gray-200 mt-2">
-              An encyclopedia based app focused on teaching people about various
-              different dog breeds. Information was pulled using the Wikipedia
-              API.
+              Doggopedia is a mobile app built with React Native that educates
+              users on dog breeds and includes an interactive quiz game. The app
+              scrapes the full list of dog breeds from Wikipedia to dynamically
+              populate a dropdown menu. When a user selects a breed, it fetches
+              detailed information and an image using Wikipedia&apos;s MediaWiki
+              API. The quiz feature utilizes the Dog CEO API to show a random
+              dog image, and user guesses are evaluated using Levenshtein
+              distance for fuzzy string matching, allowing for minor typos. Key
+              components include client-side web scraping, REST API integration,
+              and string similarity algorithms.
             </p>
           </div>
         </section>
