@@ -122,7 +122,9 @@ export default function Home() {
 
           <div className="bg-white/5 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 space-y-2">
             <div className="flex justify-between items-center">
-              <h3 className="text-xl font-bold text-white">Doggopedia</h3>
+              <h3 className="text-xl font-bold text-white">
+                Doggopedia - Mobile App
+              </h3>
               <a
                 href="https://play.google.com/store/apps/details?id=com.doggopedia&fbclid=IwAR2pRAyqk3Igr_6Bwld8pZye5_QlIgGaKokJtYYlx5lP7_NeanNAIyrTr4Y"
                 target="_blank"
