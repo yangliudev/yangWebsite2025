@@ -131,7 +131,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="text-sm text-gray-300 hover:text-white flex items-center gap-1 transition-colors"
               >
-                <span className="font-medium">View Project</span>
+                <span className="font-medium">Google Play</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="w-4 h-4"
@@ -149,7 +149,7 @@ export default function Home() {
               </a>
             </div>
             <p className="text-sm text-gray-300">
-              Tech Stack: React Native, JS/TS, MediaWiki API, Dog CEO API
+              Tech Used: React Native, JS/TS, MediaWiki API, Dog CEO API
             </p>
             <p className="text-gray-200 mt-2">
               Doggopedia is a mobile app built with React Native that educates
@@ -162,6 +162,52 @@ export default function Home() {
               distance for fuzzy string matching, allowing for minor typos. Key
               components include client-side web scraping, REST API integration,
               and string similarity algorithms.
+            </p>
+          </div>
+
+          <div className="bg-white/5 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 space-y-2">
+            <div className="flex justify-between items-center">
+              <h3 className="text-xl font-bold text-white">
+                AI Sight - Mobile App
+              </h3>
+              <a
+                href="https://github.com/yangliudev/AI-Sight"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-gray-300 hover:text-white flex items-center gap-1 transition-colors"
+              >
+                <span className="font-medium">GitHub</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-4 h-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M14 3h7m0 0v7m0-7L10 14"
+                  />
+                </svg>
+              </a>
+            </div>
+            <p className="text-sm text-gray-300">
+              Tech Used: React Native, Expo, JS/TS, HuggingFace Inference API,
+              Picsum API
+            </p>
+            <p className="text-gray-200 mt-2">
+              AI Sight is a mobile app that lets users explore and download
+              unique wallpapers through the use of two separate APIs. It uses
+              the Picsum Photos API to provide high-quality, randomly generated
+              images ideal for use as wallpapers, which users can browse and
+              download effortlessly. For those seeking more personalized
+              content, AI Sight also connects to the Hugging Face Inference API,
+              enabling users to generate custom images using AI by simply
+              describing what they want to see. Whether you&apos;re looking for
+              a spontaneous aesthetic or a tailored visual experience, AI Sight
+              delivers both creativity and convenience in a seamless interface.
             </p>
           </div>
         </section>
